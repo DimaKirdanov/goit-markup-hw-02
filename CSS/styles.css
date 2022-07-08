@@ -1,35 +1,107 @@
+:root {
+  --tittle-text-color: #212121;
+  --text-color: #757575;
+  --heared-nav-link: #212121;
+  --botton-action-text-color: #2196f3;
+  --botton-noaction-text-color: #ffffff;
+  --background-header: #ffffff;
+  --background-body: #e5e5e5;
+  --background-team: #f5f4fa;
+  --background-f-h: #2f303a;
+  --text-footer-color: (255, 255, 255, 0.6);
+}
+
 ul {
   list-style: none;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 /* #212121 цвет заголовков текста */
 /* #757575 цвет текста */
 /* #2196F3 цвет акцента */
 /* #FFFFFF цвет текста кнопки при выделении */
 /* rgba(255, 255, 255, 0.6); цвет текста футера */
-/* #E5E5E5 первичный цвет фона main */
-/* #F5F4FA вторичны цвет фона main*/
+/*  #F5F4FA первичный цвет фона main */
+/*  #E5E5E5 вторичны цвет фона main*/
 /* #2F303A черный цвет фона main */
 /* #FFFFFF фон хэдера */
 /* #2F303A фон футера */
 body {
-  color: #757575;
-  background-color: #e5e5e5;
+  /* color: var(--text-color); */
+  background-color: var(--background-body);
 }
 
 .header-logo {
   color: #000000;
-font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    /* identical to box height */
-    letter-spacing: 0.03em;
-    text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .header-logo-sub {
-color:  #2196F3;
+  color: #2196f3;
+}
+.qualities-subtittle {
+  color: var(--tittle-text-color);
+}
+.hero-tittle {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* header */
+.header {
+  background-color: var(--background-header);
+}
+.header-nav-link {
+  color: var(--heared-nav-link);
+}
+.header-nav-link:hover {
+  color: var(--botton-action-text-color)
+}
+.header-nav-link:focus {
+  color: var(--botton-action-text-color)
+}
+
+.link-header {
+  color: var(--heared-nav-link);
+}
+.link-header:hover {
+  color: var(--botton-action-text-color)
+}
+.link-header:focus {
+  color: var(--botton-action-text-color)
+}
+
+ {
+  color: var(--heared-nav-link);
+}
+
+/* < !-- Особенности --> */
+.qualities-subtittle {
+  color: var(--tittle-text-color);
+}
+.qualities-text {
+  color: var(--text-color);
+}
+
+/* team */
+.team {
+  background-color: var(--background-team);
+}
+.team-tittle {
+  color: var(--tittle-text-color);
+}
+.team-sub-tittle {
+  color: var(--tittle-text-color);
+}
+/* footer */
+.hero,
+.footer {
+  background-color: var(--background-f-h);
 }
