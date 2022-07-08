@@ -1,0 +1,35 @@
+ul {
+  list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* #212121 цвет заголовков текста */
+/* #757575 цвет текста */
+/* #2196F3 цвет акцента */
+/* #FFFFFF цвет текста кнопки при выделении */
+/* rgba(255, 255, 255, 0.6); цвет текста футера */
+/* #E5E5E5 первичный цвет фона main */
+/* #F5F4FA вторичны цвет фона main*/
+/* #2F303A черный цвет фона main */
+/* #FFFFFF фон хэдера */
+/* #2F303A фон футера */
+body {
+  color: #757575;
+  background-color: #e5e5e5;
+}
+
+.header-logo {
+  color: #000000;
+font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.header-logo-sub {
+color:  #2196F3;
+}
