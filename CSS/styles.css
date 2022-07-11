@@ -79,6 +79,9 @@ body {
 .link-header:focus {
   color: var(--botton-action-text-color);
 }
+.header-nav-link.current {
+  color: var(--botton-action-text-color);
+}
 
 .qualities-subtittle {
   color: var(--tittle-text-color);
