@@ -33,7 +33,9 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 14px;
   color: var(--text-color);
+  letter-spacing: 0.03em;
 }
 /* HEADER */
 
@@ -44,7 +46,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   text-decoration: none;
 }
 .header-logo-sub {
@@ -57,14 +58,12 @@ body {
 
 .header-nav-link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--heared-nav-link);
 }
 .link-header {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
@@ -98,9 +97,7 @@ body {
   background-color: var(--background-f-h);
 }
 
-
 .hero-tittle {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -111,7 +108,6 @@ body {
 }
 .hero-button {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -131,17 +127,12 @@ body {
 
 /*Особенности*/
 .qualities-subtittle {
-  font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--tittle-text-color);
 }
 .qualities-text {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 
   color: var(--text-color);
 }
@@ -153,8 +144,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
-
   color: var(--tittle-text-color);
 }
 /* /specifity */
@@ -163,28 +152,22 @@ body {
 .team {
   background-color: var(--background-team);
 }
-.team-tittle {
+.section-tittle {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
-
   color: var(--tittle-text-color);
 }
 .team-sub-tittle {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--tittle-text-color);
 }
 .team-text {
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
-
-  color: var(--text-color);
 }
 /* footer */
 .footer {
@@ -196,7 +179,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: #ffffff;
 }
 
@@ -204,72 +186,62 @@ body {
   color: #2196f3;
 }
 .adress {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: #ffffff;
 }
 .footer-nav-item {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-nav-link 
-{
-  font-size: 14px;
+.footer-nav-link {
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: #ffffff;
   font-style: normal;
 }
-.footer-nav-link:hover,
-.footer-nav-link:focus,
+
 .link-footer:hover,
-.link-footer:focus
-{
+.link-footer:focus {
   color: var(--botton-action-text-color);
 }
 
 .link-footer {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
   font-style: normal;
 }
 
-
 /* portfolio */
 .button {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: inherit;
+  line-height: 1.62;
+  text-align: center;
   cursor: pointer;
-    color: var(--tittle-text-color);
-    background-color: var(--background-team);
+  color: var(--tittle-text-color);
+  background-color: var(--background-team);
 }
 .button:hover,
-.button:focus
-{
- background-color: #2196f3;
-  color: #FFFFFF;
+.button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
 }
 
 /* /portfolio */
 .tittle-portfolio {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    color: var(--tittle-text-color)
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--tittle-text-color);
 }
 .text-portfolio {
-font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.03em;
-color: var(--text-color)
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--text-color);
+}
+.current-button {
+color: var(--background-header);
+background-color: var(--botton-action-text-color);
 }
